@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 int main() {
-    int p, q, r;
+    int p, q,,a, r;
     
     printf("Enter two integer values::\n\n");
     scanf("%d %d", &p, &q);
 
     // calculating sum
-    r = p + q;      
-    
-    printf("Result:: %d + %d = %d\n", p, q, r);
+    r = p + q +a ;      
+    //print
+    printf("Result:: %d + %d+%d = %d\n", p, q,a, r);
     return 0;
 }
