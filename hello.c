@@ -1,4 +1,4 @@
-// Sum of Two Numbers in C Program
+// Sun of two nos `in C Program
 #include <stdio.h>
 
 int main() {
@@ -8,8 +8,8 @@ int main() {
     scanf("%d %d", &p, &q);
 
     // calculating sum
-    r = p + q;      
+    r = p - q;      
     
-    printf("Result:: %d + %d = %d\n", p, q, r);
+    printf("Result:: %d - %d = %d\n", p, q, r);
     return 0;
 }
